@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   const gameModeCheckbox = document.querySelector('.checkbox-wrapper-25 input');
-  const gameModeButton = document.getElementById('game-mode');
 
   const board = document.getElementById('board');
   const status = document.getElementById('status');
@@ -122,7 +121,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Agregar evento de clic al botón de reinicio
   const btnReset = document.querySelector('.btn-reset');
   btnReset.addEventListener('click', resetGame);
-
-  // Agregar evento de clic al botón de modo de juego
-  gameModeButton.addEventListener('click', startSinglePlayerGame);
 });
